@@ -1,0 +1,38 @@
+#projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.projectCard {
+    width: 50vw;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+.projectCard img {
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.projectCard a {
+    padding: 15px;
+}
+
+.projectCard a button {
+    font-size: 16px;
+}
